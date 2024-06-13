@@ -207,7 +207,7 @@
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "AOn this page",
+    "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
