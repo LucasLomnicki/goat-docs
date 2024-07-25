@@ -11,6 +11,8 @@ import thematicIcon from "/img/toolbox/data_management/join/toolbox.webp";
 
 **Catchment Areas** show how far people can travel within a certain travel time or distance, using one or more modes of transport.
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/rRM1_bY2YG8?si=IhBYjpWgI0djIhyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 1. Explanation
 
 Based on the specified starting point(s), maximum travel time or distance, and mode(s) of transport, **Catchment Areas** visualize the extent of accessibility. This is calculated using **real-world data** and provides useful insights into the quality, density, and extensiveness of an area's transport network.

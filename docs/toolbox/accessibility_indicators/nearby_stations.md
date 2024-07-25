@@ -10,6 +10,8 @@ import TabItem from '@theme/TabItem';
 
 The **PT Nearby Stations** analysis is used to find public transport stops accessible by walking or cycling within a given time. For each stop, departure information by mode and route is provided.
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/bSDDJe-PHoA?si=453E2Uy52uOqBh6B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 1. Explanation
 
 The Public Transport (PT) Nearby Stations access analysis is a suitable tool to **visualize public transport stops and their connections** that are accessible by walking/cycling from one or more starting point(s). The nearest stops, the public transport lines available there, their frequency, and the journey time to reach the stop on foot and by bike are provided as a result.

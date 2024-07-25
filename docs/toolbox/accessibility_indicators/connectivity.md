@@ -10,6 +10,8 @@ import thematicIcon from "/img/toolbox/data_management/join/toolbox.webp";
 # Heatmap - Connectivity
 A color-coded map to visualize the connectivity of locations within an area of interest ([AOI](../../../further_reading/glossary#area-of-interest-aoi "What is an AOI?")).
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/bRGHlviuGGs?si=Lfaqg8bvkthFdWgj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 1. Explanation
 
 Visualized as a color-coded hexagonal grid, the heatmap takes into account real-world transport and street networks to compute connectivity. After specifying a *routing type* (Walk, Bicycle, etc.) and *travel time limit*, the result will display a color-coded hexagonal grid representing the relative connectivity of all locations within the specified AOI.

@@ -9,6 +9,8 @@ import TabItem from '@theme/TabItem';
 
 The **Aggregate Points** tool performs statistical analysis of points, e.g. **count, sum, min, or max**, and aggregates the information on polygons.
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/syQTH_zsL9k?si=RZr1oP1-jHZawbV-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 1. Explanation
 
 The Aggregate Points tool can be used to **analyze the characteristics of points within a given area**. It aggregates the information of the points and therewith allows calculation of the point **count**, the **sum** of point attributes, or derive e.g. the **maximum** value of a certain point attribute within a polygon. As a polygon layer, either a feature layer (e.g. city districts) or a hexagonal grid can be used. 

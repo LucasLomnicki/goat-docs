@@ -5,11 +5,11 @@ sidebar_position: 4
 
 # Filter
 
-The **Filter** can be used to limit the data that is visible on the map. You can thereby either filter by **logic expression** (e.g. only visualizing supermarkets with a certain name) or by **spatial expression** (e.g. only showing points within a specific bounding box).
+The **Filter** can be used to limit the data that is visible on the map. You can thereby either filter by **logical expression** (e.g. only visualizing supermarkets with a certain name) or by **spatial expression** (e.g. only showing points within a specific bounding box).
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
-  <img src={require('/img/map/filter/filter.gif').default} alt="Filter tool in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
+  <img src={require('/img/map/filter/filter_clicking.gif').default} alt="Filter tool in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
 
 </div> 
 
@@ -61,7 +61,7 @@ The **filter operation does not alter the original data**. It can be used on any
 
 <div class="step">
   <div class="step-number">4</div>
-  <div class="content">Click on <code>+ Create Expression</code>.</div>
+  <div class="content">Click on <code>+ Add Expression</code>.</div>
 </div>
 
 <div class="step">
@@ -72,12 +72,12 @@ The **filter operation does not alter the original data**. It can be used on any
 
 <div class="step">
   <div class="step-number">6</div>
-  <div class="content">Select the <code>Target Attribute</code>, i.e. the attribute which you like to use for the filtering.</div>
+  <div class="content">Select the <code>Field</code>, i.e. the attribute which you like to use for the filtering.</div>
 </div>
 
 <div class="step">
   <div class="step-number">7</div>
-  <div class="content">Select the concrete <code>Expression</code> that you want to apply. <i>Note: the available options vary based on the data type of the attribute selected in Step 6.</i>
+  <div class="content">Select the concrete <code>Operator</code> that you want to apply. <i>Note: the available options vary based on the data type of the attribute selected in Step 6.</i>
   </div>
 </div>
 
@@ -107,7 +107,7 @@ For the expressions **"includes"** and **"excludes"**, multiple values can be se
 </div>
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <img src={require('/img/map/filter/filter_result.png').default} alt="Filter Result in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
+  <img src={require('/img/map/filter/filter_atlayer.webp').default} alt="Filter Result in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
 </div> 
 
 ### Multiple Expressions Filtering
@@ -131,7 +131,7 @@ Multi-expression filtering should be applied carefully and logically to achieve 
 You can either **remove single expressions** from the filter by clicking on the three dots <img src={require('/img/map/filter/3dots_horizontal.png').default} alt="Options" style={{ maxHeight: "25px", maxWidth: "25px", objectFit: "cover"}}/> next to the expression and then click on `Delete`.
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <img src={require('/img/map/filter/delete_expression.png').default} alt="Delete" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
+  <img src={require('/img/map/filter/filter_delete.webp').default} alt="Delete" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
 
 </div> 
 
@@ -139,7 +139,7 @@ Or you can **remove the whole filter** by clicking on `Clear Filter` at the bott
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
-  <img src={require('/img/map/filter/clear_filter.png').default} alt="Clear Filters" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
+  <img src={require('/img/map/filter/clear_filter.webp').default} alt="Clear Filters" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
 
 </div> 
 

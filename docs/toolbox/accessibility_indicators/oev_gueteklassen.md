@@ -6,8 +6,9 @@ import thematicIcon from "/img/toolbox/data_management/join/toolbox.webp";
 # ÖV-Güteklassen
 
 
-The Public Transport Quality Classes <i>(German: ÖV-Güteklassen)</i> show the **attractiveness of public transport services** for a selected area.  
+The Public Transport Quality Classes <i>(German: ÖV-Güteklassen)</i> show the **attractiveness of public transport services** for a selected area.
 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/7VAFRkdLwh8?si=ZuPbfVnohzuESR0T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 1. Explanation
 

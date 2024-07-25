@@ -11,13 +11,15 @@ import TabItem from '@theme/TabItem';
 
 In the **Layers** section, layers can be **added and organized**. Among others, the layer order can be adjusted, layers can be enabled/disabled, duplicated, renamed, downloaded, and removed.
 
-<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <img src={require('/img/map/layers/overview.png').default} alt="Layer View in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
-</div> 
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/8B1BZpLw4Oo?si=ZAXDskX4-nNl6BEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 ## Add Layers
 
-You can add two kinds of layers to your map: [internal layers](../data/dataset_types) or [external layers](../data/dataset_types). For adding new internal layers, you can either integrate **datasets from your data explorer** or upload new **datasets from your local device** (GeoPackage, GeoJSON, Shapefile, KML, CSV, or XLSX). External layers can be added by inserting the **url of the external source** (WMS, WMTS, or MVT). 
+You can add two kinds of layers to your map: [internal layers](../data/dataset_types) or [external layers](../data/dataset_types). For adding new internal layers, you can either integrate **datasets from your data explorer** or upload new **datasets from your local device** (GeoPackage, GeoJSON, Shapefile, KML, CSV, or XLSX). External layers can be added by inserting the **url of the external source** (WMS, WMTS, or MVT).
+
+<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+  <img src={require('/img/map/layers/overview.png').default} alt="Layer View in GOAT" style={{ maxHeight: "flex", maxWidth: "flex", objectFit: "cover"}}/>
+</div>
 
 Follow these steps to add a layer to the map: 
 
@@ -109,7 +111,7 @@ When visualizing several data sets at once, the layer order is crucial for creat
 When hovering over the left border of the layer in the layer list, an arrow symbol appears. By drag and drop, the layer can be moved. 
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-  <img src={require('/img/map/layers/layer_order.gif').default} alt="Layer Order" style={{ maxHeight: "600px", maxWidth: "600px", objectFit: "cover"}}/>
+  <img src={require('/img/map/layers/layer_order.gif').default} alt="Layer Order" style={{ maxHeight: "flex", maxWidth: "flex", objectFit: "cover"}}/>
 </div> 
 
 ### Show / Hide Layers
@@ -117,7 +119,7 @@ When hovering over the left border of the layer in the layer list, an arrow symb
 To temporarily **hide** a layer from the map view, click the eye icon for that layer in the layer list. Clicking the eye again will make the layer **visible** again.
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-  <img src={require('/img/map/layers/hide_layers.gif').default} alt="Hide Layer" style={{ maxHeight: "600px", maxWidth: "600px", objectFit: "cover"}}/>
+  <img src={require('/img/map/layers/hide_layers.gif').default} alt="Hide Layer" style={{ maxHeight: "flex", maxWidth: "flex", objectFit: "cover"}}/>
 </div> 
 
 ### Options

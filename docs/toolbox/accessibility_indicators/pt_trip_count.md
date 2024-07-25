@@ -5,7 +5,9 @@ import thematicIcon from "/img/toolbox/data_management/join/toolbox.webp";
 
 # PT Trip Count
 
-This indicator displays the **average number of public transport departures** per hour for each public transport stop. 
+This indicator displays the **average number of public transport departures** per hour for each public transport stop.
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/A_uTAO7KlhY?si=t_Z0yKGAAg4SaTKG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 1. Explanation
 
