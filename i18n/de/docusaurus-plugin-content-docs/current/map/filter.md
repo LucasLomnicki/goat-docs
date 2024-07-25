@@ -5,143 +5,135 @@ sidebar_position: 4
 
 # Filter
 
-The **Filter** can be used to limit the data that is visible on the map. You can thereby either filter by **logical expression** (e.g. only visualizing supermarkets with a certain name) or by **spatial expression** (e.g. only showing points within a specific bounding box).
+Der **Filter** kann verwendet werden, um die auf der Karte sichtbaren Daten zu begrenzen. Sie können entweder nach **logischem Ausdruck** (z.B. nur Supermärkte mit einem bestimmten Namen visualisieren) oder nach **räumlichem Ausdruck** filtern (z.B. nur Punkte innerhalb eines bestimmten Begrenzungsrahmens anzeigen).
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
-  <img src={require('/img/map/filter/filter_clicking.gif').default} alt="Filter tool in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
+  <img src={require('/img/map/filter/filter_clicking.gif').default} alt="Filterwerkzeug in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
 
 </div> 
 
-## 1. Explanation
+## 1. Erklärung
 
+Der **Filter** <img src={require('/img/map/filter/filter_icon.png').default} alt="Filtersymbol" style={{ maxHeight: "20px", maxWidth: "20px"}}/> ermöglicht es den Nutzern, **nur bestimmte Elemente** aus einem größeren Datensatz basierend auf spezifischen Kriterien anzuzeigen. Dieses Tool hilft, ausgewählte Elemente aus einem großen georäumlichen Datensatz zu visualisieren und ermöglicht es den Nutzern, sich auf die für sie relevantesten Informationen zu konzentrieren.
 
-The **Filter** <img src={require('/img/map/filter/filter_icon.png').default} alt="Filter Icon" style={{ maxHeight: "20px", maxWidth: "20px"}}/> allows users to **display only certain elements** from a larger dataset based on specific criteria. This tool helps to visualize selected elements from a large geospatial dataset and there with allows users to focus on the information that is most relevant to their needs.
-
-Logic and spatial expressions can be added based on the attributes of **point layers** and **polygon layers** with different types of data (`number` and `string`).
+Logische und räumliche Ausdrücke können basierend auf den Attributen von **Punktlayern** und **Polygonlayern** mit unterschiedlichen Datentypen (`number` und `string`) hinzugefügt werden.
 
 :::info
 
-The **filter operation does not alter the original data**. It can be used on any layer to constrain the data used for visualization and analysis, without changing the underlying dataset. If reset, all original data associated with the layer will once again be visible.
+Die **Filteroperation verändert nicht die Originaldaten**. Sie kann auf jedem Layer verwendet werden, um die für die Visualisierung und Analyse verwendeten Daten zu begrenzen, ohne den zugrunde liegenden Datensatz zu ändern. Wenn der Filter zurückgesetzt wird, werden alle ursprünglichen Daten, die dem Layer zugeordnet sind, wieder sichtbar.
 
 :::
 
+## 2. Anwendungsbeispiele
 
+- Alle Städte in Deutschland anzeigen, die mehr als 50.000 Einwohner haben.
+- Alle Carsharing-Stationen eines bestimmten Betreibers anzeigen.
+- Die Regionen anzeigen, die mehr als einen Flughafen haben.
 
-## 2. Example use cases
-- Show all cities in Germany that have more than 50.000 inhabitants.
-- Show all carsharing stations of a certain operator.
-- Show the regions that have more than one airport.
+## 3. Wie benutzt man den Filter?
 
+### Einzel-Ausdrucksfilterung
 
-## 3. How to use the filter?
-
-### Single Expression Filtering
-
-<div class="step">
-  <div class="step-number">1</div>
-  <div class="content">Select the layer to which you want to apply the filter. </div>
+<div class="Schritt">
+  <div class="Schritt Nummer">1</div>
+  <div class="Inhalt">Wählen Sie den Layer aus, auf den Sie den Filter anwenden möchten.</div>
 </div>
 
-<div class="step">
-  <div class="step-number">2</div>
-
-  <div class="content">Click on <code>Filter</code> <img src={require('/img/map/filter/filter_icon.png').default} alt="Filter Icon" style={{ maxHeight: "20px", maxWidth: "20px"}}/>. </div>
+<div class="Schritt">
+  <div class="Schritt Nummer">2</div>
+  <div class="Inhalt">Klicken Sie auf <code>Filter</code> <img src={require('/img/map/filter/filter_icon.png').default} alt="Filtersymbol" style={{ maxHeight: "20px", maxWidth: "20px"}}/>. </div>
 </div>
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <img src={require('/img/map/filter/filter.png').default} alt="Filter tool in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
+  <img src={require('/img/map/filter/filter.png').default} alt="Filterwerkzeug in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
 </div> 
 
 <p></p>
-<div class="step">
-  <div class="step-number">3</div>
-  <div class="content">The <code>Active Layer</code> shows the currently selected layer on which the filter will be applied.</div>
+<div class="Schritt">
+  <div class="Schritt Nummer">3</div>
+  <div class="Inhalt">Der <code>Aktiver Layer</code> zeigt den aktuell ausgewählten Layer an, auf den der Filter angewendet wird.</div>
 </div>
 
-<div class="step">
-  <div class="step-number">4</div>
-  <div class="content">Click on <code>+ Add Expression</code>.</div>
+<div class="Schritt">
+  <div class="Schritt Nummer">4</div>
+  <div class="Inhalt">Klicken Sie auf <code>+ Ausdruck hinzufügen</code>.</div>
 </div>
 
 <div class="step">
   <div class="step-number">5</div>
-  <div class="content">Select if you like to filter based on a <b>Logical Expression</b> or a <b>Spatial Expression</b>. 
-  </div>
+  <div class="content">Wählen Sie, ob Sie basierend auf einem <b>logischen Ausdruck</b> oder einem <b>räumlichen Ausdruck</b> filtern möchten.</div>
 </div>
 
-<div class="step">
-  <div class="step-number">6</div>
-  <div class="content">Select the <code>Field</code>, i.e. the attribute which you like to use for the filtering.</div>
+<div class="Schritt">
+  <div class="Schritt Nummer">6</div>
+  <div class="Inhalt">Wählen Sie das <code>Feld</code>, d.h. das Attribut, das Sie für die Filterung verwenden möchten.</div>
 </div>
 
-<div class="step">
-  <div class="step-number">7</div>
-  <div class="content">Select the concrete <code>Operator</code> that you want to apply. <i>Note: the available options vary based on the data type of the attribute selected in Step 6.</i>
-  </div>
+<div class="Schritt">
+  <div class="Schritt Nummer">7</div>
+  <div class="Inhalt">Wählen Sie den konkreten <code>Operator</code>, den Sie anwenden möchten. <i>Tipp: Die verfügbaren Optionen variieren je nach Datentyp des in Schritt 6 ausgewählten Attributs.</i></div>
 </div>
 
-The **Filter Expressions** available for `number` (numerical data) and `string` (text data) are given below:
+Die **Filterausdrücke** für `number` (numerische Daten) und `string` (Textdaten) sind unten angegeben:
 
-| Expressions for `number` | Expressions for `string` |
+| Ausdrücke für `number` | Ausdrücke für `string` |
 | -------|----|
-| is  | is |
-| is not  | is not |
-| includes  | includes  |
-| excludes  |  excludes |
-| is at least  | starts with |
-| is less than | ends with |
-| is at most | contains the text |
-| is greater than | doesn't contain the text |
-| is between | is empty string |
-|  | is not empty string |
+| ist  | ist |
+| ist nicht  | ist nicht |
+| enthält  | enthält  |
+| schließt aus  | schließt aus |
+| ist mindestens  | beginnt mit |
+| ist weniger als | endet mit |
+| ist höchstens | enthält den Text |
+| ist größer als | enthält den Text nicht |
+| ist zwischen | ist leer |
+|  | ist nicht leer |
 
 
-:::tip Hint
-For the expressions **"includes"** and **"excludes"**, multiple values can be selected.
+:::tip Tipp
+Für die Ausdrücke **"enthält"** und **"schließt aus"** können mehrere Werte ausgewählt werden.
 :::
 
-<div class="step">
-  <div class="step-number">8</div>
-  <div class="content">Set your filter criteria. The map will automatically update with your filtered data and the filter icon will appear on the filtered layer.</div>
+<div class="Schritt">
+  <div class="Schritt Nummer">8</div>
+  <div class="Inhalt">Legen Sie Ihre Filterkriterien fest. Die Karte wird automatisch mit Ihren gefilterten Daten aktualisiert und das Filtersymbol wird auf dem gefilterten Layer erscheinen.</div>
 </div>
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <img src={require('/img/map/filter/filter_atlayer.webp').default} alt="Filter Result in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
+  <img src={require('/img/map/filter/filter_atlayer.webp').default} alt="Filterergebnis in GOAT" style={{ maxHeight: "auto", maxWidth: "auto", objectFit: "cover"}}/>
 </div> 
 
-### Multiple Expressions Filtering
+### Mehrfachausdrucksfilterung
 
-If you wish, you can **combine multiple filters** for multi-expression filtering. To do this, simply repeat steps 4-8 above for each additional expression. In the <code>Logic Operator</code> field, you can choose between the **AND** and **OR** logic combinations.  
+Falls gewünscht, können Sie **mehrere Filter kombinieren** für eine Mehrfachausdrucksfilterung. Wiederholen Sie dazu einfach die Schritte 4-8 oben für jeden zusätzlichen Ausdruck. Im Feld <code>Logikoperator</code> können Sie zwischen den Logikkombinationen **UND** und **ODER** wählen.  
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
-  <img src={require('/img/map/filter/filter-results.png').default} alt="Logic Operators" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
+  <img src={require('/img/map/filter/filter-results.png').default} alt="Logikoperatoren" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
 
 </div> 
 
-If you select **AND**, only items for which all the filter expressions are true will be displayed. If you choose **OR**, items will be shown if any of the filter terms are true. 
+Wenn Sie **UND** wählen, werden nur die Elemente angezeigt, für die alle Filterausdrücke wahr sind. Wenn Sie **ODER** wählen, werden Elemente angezeigt, wenn einer der Filterausdrücke wahr ist. 
 
-:::tip NOTE
-Multi-expression filtering should be applied carefully and logically to achieve the best result.
+:::tip Tipp
+Mehrfachausdrucksfilterung sollte sorgfältig und logisch angewendet werden, um das beste Ergebnis zu erzielen.
 :::
 
-### Delete Expressions and Filters
+### Ausdrücke und Filter löschen
 
-
-You can either **remove single expressions** from the filter by clicking on the three dots <img src={require('/img/map/filter/3dots_horizontal.png').default} alt="Options" style={{ maxHeight: "25px", maxWidth: "25px", objectFit: "cover"}}/> next to the expression and then click on `Delete`.
+Sie können entweder **einzelne Ausdrücke** aus dem Filter entfernen, indem Sie auf die drei Punkte <img src={require('/img/map/filter/3dots_horizontal.png').default} alt="Optionen" style={{ maxHeight: "25px", maxWidth: "25px", objectFit: "cover"}}/> neben dem Ausdruck klicken und dann auf `Löschen` klicken.
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  <img src={require('/img/map/filter/filter_delete.webp').default} alt="Delete" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
-
+  <img src={require('/img/map/filter/filter_delete.webp').default} alt="Löschen" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
 </div> 
 
-Or you can **remove the whole filter** by clicking on `Clear Filter` at the bottom of the Filter menu. 
+Oder Sie können **den gesamten Filter** entfernen, indem Sie unten im Filtermenü auf `Filter löschen` klicken.
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
-  <img src={require('/img/map/filter/clear_filter.webp').default} alt="Clear Filters" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
+  <img src={require('/img/map/filter/clear_filter.webp').default} alt="Filter löschen" style={{ maxHeight: "300px", maxWidth: "300px", objectFit: "cover"}}/>
 
-</div> 
+</div>
 
 
 
